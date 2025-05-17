@@ -1,0 +1,14 @@
+{
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.project.referencedLibraries": [
+        "lib/**/*.jar"  // Si vous utilisez des librairies externes
+    ],
+    "java.jdt.ls.vmargs": "--add-modules=java.desktop",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-23",
+            "path": "/Library/Java/JavaVirtualMachines/zulu-23.jdk/Contents/Home",
+            "default": true
+        }
+    ]
+}
